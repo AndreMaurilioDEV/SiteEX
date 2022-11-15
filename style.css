@@ -3,6 +3,66 @@
     margin: 0;
 }
 
+body{
+    background-color: antiquewhite;
+}
+
+
+
+header{
+    background-color:darkgray;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    
+    
+    
+}
+
+
+
+header h1 {
+    color: white;
+    padding-left: 35px;
+}
+
+nav{
+    background-color:darkgray;
+    padding-left: 0px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    padding: 10px 20px;
+}
+
+main{
+    
+    margin: auto;
+    padding: 25px 30px;
+    width: 1016px;
+    background-color: white;
+
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 25px;
+    text-align: left;
+
+}
+
+main p{
+    text-align: justify;
+    line-height: 24px;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+
 aside{
     background-color: bisque;
     display: flex;
@@ -29,5 +89,9 @@ aside{
 .cards{
     display: flex;
     padding: 32px;
+}
+
+.card span{
+    width: 200px;
 }
 
