@@ -102,6 +102,7 @@ aside{
 
 
 .card span{
+    
     width: 200px;
     font-size: 14px;
 }
@@ -132,6 +133,26 @@ aside{
     font-size: 16px;
 }
 
+
+.cardnoticia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsnoticia img{
+    
+   
+    width: 300px;
+    height: 200px;
+    padding-left: 30px;
+}
+
+.texto h1{
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
 
 
 
